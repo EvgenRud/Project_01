@@ -5,7 +5,7 @@
 
 
 from line_profiler import LineProfiler
-from probe import *
+from timetest.probe import *
 
 lp = LineProfiler()
 lp_wrapper_1 = lp(foo_1)
