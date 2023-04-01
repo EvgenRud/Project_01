@@ -19,3 +19,11 @@ b1 = Cell()
 print(a1.content_type)
 a1.set_value('Hello')
 print(a1.content)
+
+# Специальные методы Python
+# Магия  Python - встроенные методы внутри класса
+
+from pprint import pprint
+shop_lst -['Potato']
+pprint(dir(shop_lst))
+
