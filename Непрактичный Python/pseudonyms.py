@@ -4,8 +4,9 @@
 
 import random
 
-# Исключаем код из глобального пространства функцией main()
+
 def main():
+    """Исключаем код из глобального пространства функцией main()"""
 
     print("Welcome to the Psych 'Sidekick Name Picker.'\n")
     print("A name just like Sean would pick for Gus:\n\n")
