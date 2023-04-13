@@ -1,9 +1,7 @@
-import pprint
-from collections import defaultdict
+"""Импорт данного модуля pprint структурирует вывод"""
+from pprint import pprint
+from collections import Counter
 
 user_text = input("Введите прежложение: ")
-defdict = defaultdict(str)
-
-for letter in user_text:
-    defdict[letter] = letter
-    print(defdict[letter])
+occurrences = Counter(user_text)
+pprint(occurrences, width=1)
